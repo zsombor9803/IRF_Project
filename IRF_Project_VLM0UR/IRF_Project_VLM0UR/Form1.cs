@@ -51,7 +51,8 @@ namespace IRF_Project_VLM0UR
 
         private void Francia_Click(object sender, EventArgs e)
         {
-
+            FranciaForm ff = new FranciaForm();
+            ff.Show();
         }
 
         private void Nemet_Click(object sender, EventArgs e)

@@ -53,6 +53,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FranciaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FranciaForm.Designer.cs">
+      <DependentUpon>FranciaForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Havi.cs" />
     <Compile Include="havibontas.cs">
       <SubType>Form</SubType>
@@ -81,6 +87,9 @@
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FranciaForm.resx">
+      <DependentUpon>FranciaForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="havibontas.resx">
       <DependentUpon>havibontas.cs</DependentUpon>
