@@ -17,6 +17,20 @@ namespace IRF_Project_VLM0UR
             InitializeComponent();
         }
 
+        public void aktivgomb() //ide is kell?
+        {
+            foreach (var b in this.Controls.OfType<Button>())
+            {
+                b.Font = new Font("Microsoft Sans Serif", 7.8F, FontStyle.Regular);
+                b.BackColor = Color.LightGray;
+            }
+
+            foreach (var t in this.Controls.OfType<Tablazat>())  //ez fölösleges
+            {
+                t.Font = new Font("Microsoft Sans Serif", 7.8F, FontStyle.Regular);
+            }
+        }
+
         private void Multhet_Click(object sender, EventArgs e)
         {
             Multheti f2 = new Multheti();

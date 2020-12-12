@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Forms.DataVisualization.Charting;
 
 namespace IRF_Project_VLM0UR
 {
@@ -21,6 +22,7 @@ namespace IRF_Project_VLM0UR
             InitializeComponent();
             Beolvasas();
             Tablazatbairas(szam);
+            diagram();
         }
 
         void Beolvasas()
@@ -124,7 +126,54 @@ namespace IRF_Project_VLM0UR
             }
         }
 
+        public void oszlopkiemel(int k)
+        {
+            foreach (var t in this.Controls.OfType<Tablazat>())
+            {
+                if (t.Left == (40 + k * (t.Width + 5)))
+                {
+                    t.Font = new Font("Times New Roman", 8F, FontStyle.Bold);
+                }
+            }
+        }
 
+        void diagram() //ennyit tudok beállítani külön
+        {
+            var chartArea = chart1.ChartAreas[0];
+            chartArea.AxisX.MajorGrid.Enabled = false;
+            chartArea.AxisY.MajorGrid.Enabled = false;
+            chartArea.AxisY.IsStartedFromZero = true;
+        }
 
+        private void H_Click(object sender, EventArgs e)
+        {
+            aktivgomb();
+            H.Font = new Font("Times New Roman", 8.5F, FontStyle.Bold);
+            H.BackColor = Color.LightGreen;
+            oszlopkiemel(1);
+
+            //diagram
+            chart1.DataSource = _napi;
+            var series = chart1.Series[0];
+
+            if (radioButton1.Checked)
+            {
+                series.ChartType = SeriesChartType.Column;
+                series.XValueMember = "Orszag";
+                series.YValueMembers = "Hetfo";
+                series.BorderWidth = 2;
+                series.IsVisibleInLegend = false;
+            }
+            if (radioButton2.Checked)
+            {
+                series.ChartType = SeriesChartType.Pie;
+                series.XValueMember = "Orszag";
+                series.YValueMembers = "Hetfo";
+                series.BorderWidth = 2;
+                series.IsVisibleInLegend = true;
+            }
+
+            series.IsValueShownAsLabel = true;
+        }
     }
 }
