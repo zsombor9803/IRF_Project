@@ -110,6 +110,21 @@ namespace IRF_Project_VLM0UR
             }
         }
 
+        public void aktivgomb()
+        {
+            foreach (var b in this.Controls.OfType<Button>())
+            {
+                b.Font = new Font("Microsoft Sans Serif", 7.8F, FontStyle.Regular);
+                b.BackColor = Color.LightGray;
+            }
+
+            foreach (var t in this.Controls.OfType<Tablazat>())  //ez fölösleges
+            {
+                t.Font = new Font("Microsoft Sans Serif", 7.8F, FontStyle.Regular);
+            }
+        }
+
+
 
     }
 }
