@@ -64,6 +64,7 @@ namespace IRF_Project_VLM0UR
             series.ChartType = SeriesChartType.Line;
             series.XValueMember = "Datum";
             series.YValueMembers = "esetszam";
+            series.IsVisibleInLegend = false;
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -81,6 +82,7 @@ namespace IRF_Project_VLM0UR
             series.ChartType = SeriesChartType.Line;
             series.XValueMember = "Datum";
             series.YValueMembers = "esetszam";
+            series.IsVisibleInLegend = false;
         }
     }
 }

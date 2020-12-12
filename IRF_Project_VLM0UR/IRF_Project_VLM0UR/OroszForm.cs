@@ -51,6 +51,7 @@ namespace IRF_Project_VLM0UR
             series.ChartType = SeriesChartType.Line;
             series.XValueMember = "Datum";
             series.YValueMembers = "esetszam";
+            series.IsVisibleInLegend = false;
 
             var chartArea = chart1.ChartAreas[0];
             chartArea.AxisX.MajorGrid.Enabled = false;
