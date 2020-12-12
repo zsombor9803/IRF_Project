@@ -19,7 +19,8 @@ namespace IRF_Project_VLM0UR
 
         private void Multhet_Click(object sender, EventArgs e)
         {
-
+            Multheti f2 = new Multheti();
+            f2.Show();
         }
     }
 }
