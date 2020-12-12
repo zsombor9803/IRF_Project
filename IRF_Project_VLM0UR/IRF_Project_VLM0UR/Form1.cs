@@ -63,12 +63,14 @@ namespace IRF_Project_VLM0UR
 
         private void Spanyol_Click(object sender, EventArgs e)
         {
-
+            SpanyolForm sf = new SpanyolForm();
+            sf.Show();
         }
 
         private void Olasz_Click(object sender, EventArgs e)
         {
-
+            OlaszForm of = new OlaszForm();
+            of.Show();
         }
 
         private void Horvat_Click(object sender, EventArgs e)
@@ -79,17 +81,20 @@ namespace IRF_Project_VLM0UR
 
         private void Orosz_Click(object sender, EventArgs e)
         {
-
+            OroszForm orf = new OroszForm();
+            orf.Show();
         }
 
         private void Japan_Click(object sender, EventArgs e)
         {
-
+            JapanForm jf = new JapanForm();
+            jf.Show();
         }
 
         private void USA_Click(object sender, EventArgs e)
         {
-
+            USAForm uf = new USAForm();
+            uf.Show();
         }
     }
 }

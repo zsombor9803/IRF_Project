@@ -72,6 +72,12 @@
     <Compile Include="HorvatForm.Designer.cs">
       <DependentUpon>HorvatForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="JapanForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JapanForm.Designer.cs">
+      <DependentUpon>JapanForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="MagyarForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -91,11 +97,35 @@
     <Compile Include="NemetForm.Designer.cs">
       <DependentUpon>NemetForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="OlaszForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OlaszForm.Designer.cs">
+      <DependentUpon>OlaszForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OroszForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OroszForm.Designer.cs">
+      <DependentUpon>OroszForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Orszagok.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SpanyolForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SpanyolForm.Designer.cs">
+      <DependentUpon>SpanyolForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Tablazat.cs">
       <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="USAForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="USAForm.Designer.cs">
+      <DependentUpon>USAForm.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -109,6 +139,9 @@
     <EmbeddedResource Include="HorvatForm.resx">
       <DependentUpon>HorvatForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="JapanForm.resx">
+      <DependentUpon>JapanForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MagyarForm.resx">
       <DependentUpon>MagyarForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -117,6 +150,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="NemetForm.resx">
       <DependentUpon>NemetForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OlaszForm.resx">
+      <DependentUpon>OlaszForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OroszForm.resx">
+      <DependentUpon>OroszForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -127,6 +166,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="SpanyolForm.resx">
+      <DependentUpon>SpanyolForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="USAForm.resx">
+      <DependentUpon>USAForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
