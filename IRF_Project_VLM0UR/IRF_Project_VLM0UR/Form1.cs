@@ -17,7 +17,7 @@ namespace IRF_Project_VLM0UR
             InitializeComponent();
         }
 
-        public void aktivgomb() //ide is kell?
+        public void aktivgomb() //Ez ide nekem nem kell
         {
             foreach (var b in this.Controls.OfType<Button>())
             {
@@ -41,6 +41,52 @@ namespace IRF_Project_VLM0UR
         {
             havibontas f3 = new havibontas();
             f3.Show();
+        }
+
+        private void Magyar_Click(object sender, EventArgs e)
+        {
+            MagyarForm mf = new MagyarForm();
+            mf.Show();
+        }
+
+        private void Francia_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Nemet_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Spanyol_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Olasz_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Horvat_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Orosz_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Japan_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void USA_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

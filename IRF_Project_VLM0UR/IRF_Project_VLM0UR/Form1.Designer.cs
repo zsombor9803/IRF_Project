@@ -59,6 +59,7 @@
             this.Magyar.TabIndex = 1;
             this.Magyar.Text = "Magyarország";
             this.Magyar.UseVisualStyleBackColor = true;
+            this.Magyar.Click += new System.EventHandler(this.Magyar_Click);
             // 
             // Francia
             // 
@@ -68,6 +69,7 @@
             this.Francia.TabIndex = 2;
             this.Francia.Text = "Franciaország";
             this.Francia.UseVisualStyleBackColor = true;
+            this.Francia.Click += new System.EventHandler(this.Francia_Click);
             // 
             // Nemet
             // 
@@ -77,6 +79,7 @@
             this.Nemet.TabIndex = 3;
             this.Nemet.Text = "Németország";
             this.Nemet.UseVisualStyleBackColor = true;
+            this.Nemet.Click += new System.EventHandler(this.Nemet_Click);
             // 
             // Spanyol
             // 
@@ -86,6 +89,7 @@
             this.Spanyol.TabIndex = 4;
             this.Spanyol.Text = "Spanyolország";
             this.Spanyol.UseVisualStyleBackColor = true;
+            this.Spanyol.Click += new System.EventHandler(this.Spanyol_Click);
             // 
             // Olasz
             // 
@@ -95,6 +99,7 @@
             this.Olasz.TabIndex = 5;
             this.Olasz.Text = "Olaszország";
             this.Olasz.UseVisualStyleBackColor = true;
+            this.Olasz.Click += new System.EventHandler(this.Olasz_Click);
             // 
             // Horvat
             // 
@@ -104,6 +109,7 @@
             this.Horvat.TabIndex = 6;
             this.Horvat.Text = "Horvátország";
             this.Horvat.UseVisualStyleBackColor = true;
+            this.Horvat.Click += new System.EventHandler(this.Horvat_Click);
             // 
             // Orosz
             // 
@@ -113,6 +119,7 @@
             this.Orosz.TabIndex = 7;
             this.Orosz.Text = "Oroszország";
             this.Orosz.UseVisualStyleBackColor = true;
+            this.Orosz.Click += new System.EventHandler(this.Orosz_Click);
             // 
             // Japan
             // 
@@ -122,6 +129,7 @@
             this.Japan.TabIndex = 8;
             this.Japan.Text = "Japán";
             this.Japan.UseVisualStyleBackColor = true;
+            this.Japan.Click += new System.EventHandler(this.Japan_Click);
             // 
             // USA
             // 
@@ -131,6 +139,7 @@
             this.USA.TabIndex = 9;
             this.USA.Text = "USA";
             this.USA.UseVisualStyleBackColor = true;
+            this.USA.Click += new System.EventHandler(this.USA_Click);
             // 
             // Eves
             // 
