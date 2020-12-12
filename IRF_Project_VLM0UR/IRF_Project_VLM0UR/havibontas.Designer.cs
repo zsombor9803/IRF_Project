@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea10 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend10 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series10 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
@@ -50,17 +50,17 @@
             // 
             // chart1
             // 
-            chartArea10.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea10);
-            legend10.Name = "Legend1";
-            this.chart1.Legends.Add(legend10);
+            chartArea1.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.chart1.Legends.Add(legend1);
             this.chart1.Location = new System.Drawing.Point(13, 40);
             this.chart1.Name = "chart1";
-            series10.ChartArea = "ChartArea1";
-            series10.Legend = "Legend1";
-            series10.Name = "Series1";
-            this.chart1.Series.Add(series10);
-            this.chart1.Size = new System.Drawing.Size(647, 411);
+            series1.ChartArea = "ChartArea1";
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.chart1.Series.Add(series1);
+            this.chart1.Size = new System.Drawing.Size(949, 415);
             this.chart1.TabIndex = 0;
             this.chart1.Text = "chart1";
             // 
@@ -68,7 +68,7 @@
             // 
             this.radioButton1.AutoSize = true;
             this.radioButton1.Checked = true;
-            this.radioButton1.Location = new System.Drawing.Point(688, 40);
+            this.radioButton1.Location = new System.Drawing.Point(988, 44);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(110, 21);
             this.radioButton1.TabIndex = 1;
@@ -79,7 +79,7 @@
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(688, 67);
+            this.radioButton2.Location = new System.Drawing.Point(988, 71);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(110, 21);
             this.radioButton2.TabIndex = 2;
@@ -89,7 +89,7 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(688, 221);
+            this.dataGridView1.Location = new System.Drawing.Point(988, 225);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
@@ -98,7 +98,7 @@
             // 
             // Mo
             // 
-            this.Mo.Location = new System.Drawing.Point(822, 33);
+            this.Mo.Location = new System.Drawing.Point(1122, 37);
             this.Mo.Name = "Mo";
             this.Mo.Size = new System.Drawing.Size(121, 55);
             this.Mo.TabIndex = 4;
@@ -108,7 +108,7 @@
             // 
             // Fr
             // 
-            this.Fr.Location = new System.Drawing.Point(949, 33);
+            this.Fr.Location = new System.Drawing.Point(1249, 37);
             this.Fr.Name = "Fr";
             this.Fr.Size = new System.Drawing.Size(121, 55);
             this.Fr.TabIndex = 5;
@@ -118,7 +118,7 @@
             // 
             // Ne
             // 
-            this.Ne.Location = new System.Drawing.Point(1076, 33);
+            this.Ne.Location = new System.Drawing.Point(1376, 37);
             this.Ne.Name = "Ne";
             this.Ne.Size = new System.Drawing.Size(121, 55);
             this.Ne.TabIndex = 6;
@@ -128,7 +128,7 @@
             // 
             // Spa
             // 
-            this.Spa.Location = new System.Drawing.Point(822, 94);
+            this.Spa.Location = new System.Drawing.Point(1122, 98);
             this.Spa.Name = "Spa";
             this.Spa.Size = new System.Drawing.Size(121, 55);
             this.Spa.TabIndex = 7;
@@ -138,7 +138,7 @@
             // 
             // Ol
             // 
-            this.Ol.Location = new System.Drawing.Point(949, 94);
+            this.Ol.Location = new System.Drawing.Point(1249, 98);
             this.Ol.Name = "Ol";
             this.Ol.Size = new System.Drawing.Size(121, 55);
             this.Ol.TabIndex = 8;
@@ -148,7 +148,7 @@
             // 
             // Ho
             // 
-            this.Ho.Location = new System.Drawing.Point(1076, 94);
+            this.Ho.Location = new System.Drawing.Point(1376, 98);
             this.Ho.Name = "Ho";
             this.Ho.Size = new System.Drawing.Size(121, 55);
             this.Ho.TabIndex = 9;
@@ -158,7 +158,7 @@
             // 
             // Oro
             // 
-            this.Oro.Location = new System.Drawing.Point(822, 155);
+            this.Oro.Location = new System.Drawing.Point(1122, 159);
             this.Oro.Name = "Oro";
             this.Oro.Size = new System.Drawing.Size(121, 55);
             this.Oro.TabIndex = 10;
@@ -168,7 +168,7 @@
             // 
             // Jap
             // 
-            this.Jap.Location = new System.Drawing.Point(949, 155);
+            this.Jap.Location = new System.Drawing.Point(1249, 159);
             this.Jap.Name = "Jap";
             this.Jap.Size = new System.Drawing.Size(121, 55);
             this.Jap.TabIndex = 11;
@@ -178,7 +178,7 @@
             // 
             // USA
             // 
-            this.USA.Location = new System.Drawing.Point(1076, 155);
+            this.USA.Location = new System.Drawing.Point(1376, 159);
             this.USA.Name = "USA";
             this.USA.Size = new System.Drawing.Size(121, 55);
             this.USA.TabIndex = 12;
