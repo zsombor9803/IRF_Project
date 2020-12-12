@@ -175,5 +175,191 @@ namespace IRF_Project_VLM0UR
 
             series.IsValueShownAsLabel = true;
         }
+
+        private void K_Click(object sender, EventArgs e)
+        {
+            aktivgomb();
+            K.Font = new Font("Times New Roman", 8.5F, FontStyle.Bold);
+            K.BackColor = Color.LightGreen;
+            oszlopkiemel(2);
+
+            //diagram
+            chart1.DataSource = _napi;
+            var series = chart1.Series[0];
+
+            if (radioButton1.Checked)
+            {
+                series.ChartType = SeriesChartType.Column;
+                series.XValueMember = "Orszag";
+                series.YValueMembers = "Kedd";
+                series.BorderWidth = 2;
+                series.IsVisibleInLegend = false;
+            }
+            if (radioButton2.Checked)
+            {
+                series.ChartType = SeriesChartType.Pie;
+                series.XValueMember = "Orszag";
+                series.YValueMembers = "Kedd";
+                series.BorderWidth = 2;
+                series.IsVisibleInLegend = true;
+            }
+
+            series.IsValueShownAsLabel = true;
+        }
+
+        private void Sze_Click(object sender, EventArgs e)
+        {
+            aktivgomb();
+            Sze.Font = new Font("Times New Roman", 8.5F, FontStyle.Bold);
+            Sze.BackColor = Color.LightGreen;
+            oszlopkiemel(3);
+
+            //diagram
+            chart1.DataSource = _napi;
+            var series = chart1.Series[0];
+
+            if (radioButton1.Checked)
+            {
+                series.ChartType = SeriesChartType.Column;
+                series.XValueMember = "Orszag";
+                series.YValueMembers = "Szerda";
+                series.BorderWidth = 2;
+                series.IsVisibleInLegend = false;
+            }
+            if (radioButton2.Checked)
+            {
+                series.ChartType = SeriesChartType.Pie;
+                series.XValueMember = "Orszag";
+                series.YValueMembers = "Szerda";
+                series.BorderWidth = 2;
+                series.IsVisibleInLegend = true;
+            }
+
+            series.IsValueShownAsLabel = true;
+        }
+
+        private void Cs_Click(object sender, EventArgs e)
+        {
+            aktivgomb();
+            Cs.Font = new Font("Times New Roman", 8.5F, FontStyle.Bold);
+            Cs.BackColor = Color.LightGreen;
+            oszlopkiemel(4);
+
+            //diagram
+            chart1.DataSource = _napi;
+            var series = chart1.Series[0];
+
+            if (radioButton1.Checked)
+            {
+                series.ChartType = SeriesChartType.Column;
+                series.XValueMember = "Orszag";
+                series.YValueMembers = "Csut";
+                series.BorderWidth = 2;
+                series.IsVisibleInLegend = false;
+            }
+            if (radioButton2.Checked)
+            {
+                series.ChartType = SeriesChartType.Pie;
+                series.XValueMember = "Orszag";
+                series.YValueMembers = "Csut";
+                series.BorderWidth = 2;
+                series.IsVisibleInLegend = true;
+            }
+
+            series.IsValueShownAsLabel = true;
+        }
+
+        private void P_Click(object sender, EventArgs e)
+        {
+            aktivgomb();
+            P.Font = new Font("Times New Roman", 8.5F, FontStyle.Bold);
+            P.BackColor = Color.LightGreen;
+            oszlopkiemel(5);
+
+            //diagram
+            chart1.DataSource = _napi;
+            var series = chart1.Series[0];
+
+            if (radioButton1.Checked)
+            {
+                series.ChartType = SeriesChartType.Column;
+                series.XValueMember = "Orszag";
+                series.YValueMembers = "Pentek";
+                series.BorderWidth = 2;
+                series.IsVisibleInLegend = false;
+            }
+            if (radioButton2.Checked)
+            {
+                series.ChartType = SeriesChartType.Pie;
+                series.XValueMember = "Orszag";
+                series.YValueMembers = "Pentek";
+                series.BorderWidth = 2;
+                series.IsVisibleInLegend = true;
+            }
+
+            series.IsValueShownAsLabel = true;
+        }
+
+        private void Szo_Click(object sender, EventArgs e)
+        {
+            aktivgomb();
+            Szo.Font = new Font("Times New Roman", 8.5F, FontStyle.Bold);
+            Szo.BackColor = Color.LightGreen;
+            oszlopkiemel(6);
+
+            //diagram
+            chart1.DataSource = _napi;
+            var series = chart1.Series[0];
+
+            if (radioButton1.Checked)
+            {
+                series.ChartType = SeriesChartType.Column;
+                series.XValueMember = "Orszag";
+                series.YValueMembers = "Szombat";
+                series.BorderWidth = 2;
+                series.IsVisibleInLegend = false;
+            }
+            if (radioButton2.Checked)
+            {
+                series.ChartType = SeriesChartType.Pie;
+                series.XValueMember = "Orszag";
+                series.YValueMembers = "Szombat";
+                series.BorderWidth = 2;
+                series.IsVisibleInLegend = true;
+            }
+
+            series.IsValueShownAsLabel = true;
+        }
+
+        private void V_Click(object sender, EventArgs e)
+        {
+            aktivgomb();
+            V.Font = new Font("Times New Roman", 8.5F, FontStyle.Bold);
+            V.BackColor = Color.LightGreen;
+            oszlopkiemel(7);
+
+            //diagram
+            chart1.DataSource = _napi;
+            var series = chart1.Series[0];
+
+            if (radioButton1.Checked)
+            {
+                series.ChartType = SeriesChartType.Column;
+                series.XValueMember = "Orszag";
+                series.YValueMembers = "Vasarnap";
+                series.BorderWidth = 2;
+                series.IsVisibleInLegend = false;
+            }
+            if (radioButton2.Checked)
+            {
+                series.ChartType = SeriesChartType.Pie;
+                series.XValueMember = "Orszag";
+                series.YValueMembers = "Vasarnap";
+                series.BorderWidth = 2;
+                series.IsVisibleInLegend = true;
+            }
+
+            series.IsValueShownAsLabel = true;
+        }
     }
 }
