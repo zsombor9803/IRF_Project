@@ -140,6 +140,7 @@
             this.Eves.TabIndex = 10;
             this.Eves.Text = "Éves adatok";
             this.Eves.UseVisualStyleBackColor = true;
+            this.Eves.Click += new System.EventHandler(this.Eves_Click);
             // 
             // Multhet
             // 

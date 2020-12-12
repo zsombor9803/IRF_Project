@@ -137,7 +137,7 @@ namespace IRF_Project_VLM0UR
             }
         }
 
-        void diagram() //ennyit tudok beállítani külön
+        void diagram() 
         {
             var chartArea = chart1.ChartAreas[0];
             chartArea.AxisX.MajorGrid.Enabled = false;

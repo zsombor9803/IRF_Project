@@ -36,5 +36,11 @@ namespace IRF_Project_VLM0UR
             Multheti f2 = new Multheti();
             f2.Show();
         }
+
+        private void Eves_Click(object sender, EventArgs e)
+        {
+            havibontas f3 = new havibontas();
+            f3.Show();
+        }
     }
 }
