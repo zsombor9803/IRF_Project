@@ -66,6 +66,12 @@
     <Compile Include="havibontas.Designer.cs">
       <DependentUpon>havibontas.cs</DependentUpon>
     </Compile>
+    <Compile Include="HorvatForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HorvatForm.Designer.cs">
+      <DependentUpon>HorvatForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="MagyarForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -99,6 +105,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="havibontas.resx">
       <DependentUpon>havibontas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HorvatForm.resx">
+      <DependentUpon>HorvatForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MagyarForm.resx">
       <DependentUpon>MagyarForm.cs</DependentUpon>

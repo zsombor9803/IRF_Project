@@ -73,7 +73,8 @@ namespace IRF_Project_VLM0UR
 
         private void Horvat_Click(object sender, EventArgs e)
         {
-
+            HorvatForm hf = new HorvatForm();
+            hf.Show();
         }
 
         private void Orosz_Click(object sender, EventArgs e)
