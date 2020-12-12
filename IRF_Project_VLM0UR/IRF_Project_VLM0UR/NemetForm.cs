@@ -19,11 +19,12 @@ namespace IRF_Project_VLM0UR
         {
             InitializeComponent();
             Beolvas();
+            diagram();
         }
 
         void Beolvas()
         {
-            using (StreamReader sr = new StreamReader("Franciaorszag.csv", Encoding.Default))
+            using (StreamReader sr = new StreamReader("Németország.csv", Encoding.Default))
             {
                 while (!sr.EndOfStream)
                 {
