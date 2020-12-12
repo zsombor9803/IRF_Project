@@ -18,6 +18,8 @@ namespace IRF_Project_VLM0UR
         public HorvatForm()
         {
             InitializeComponent();
+            Beolvas();
+            diagram();
         }
 
         void Beolvas()
