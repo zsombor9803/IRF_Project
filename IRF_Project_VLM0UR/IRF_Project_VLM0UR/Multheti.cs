@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace IRF_Project_VLM0UR
 {
-    public partial class Form1 : Form
+    public partial class Multheti : Form
     {
-        public Form1()
+        public Multheti()
         {
             InitializeComponent();
-        }
-
-        private void Multhet_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
