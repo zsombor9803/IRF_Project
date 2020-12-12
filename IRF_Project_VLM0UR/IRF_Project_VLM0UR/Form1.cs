@@ -57,7 +57,8 @@ namespace IRF_Project_VLM0UR
 
         private void Nemet_Click(object sender, EventArgs e)
         {
-
+            NemetForm nf = new NemetForm();
+            nf.Show();
         }
 
         private void Spanyol_Click(object sender, EventArgs e)
