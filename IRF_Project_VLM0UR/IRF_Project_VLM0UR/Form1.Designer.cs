@@ -40,6 +40,7 @@
             this.USA = new System.Windows.Forms.Button();
             this.Eves = new System.Windows.Forms.Button();
             this.Multhet = new System.Windows.Forms.Button();
+            this.bezarogomb1 = new IRF_Project_VLM0UR.bezarogomb();
             this.SuspendLayout();
             // 
             // label1
@@ -161,11 +162,24 @@
             this.Multhet.UseVisualStyleBackColor = true;
             this.Multhet.Click += new System.EventHandler(this.Multhet_Click);
             // 
+            // bezarogomb1
+            // 
+            this.bezarogomb1.BackColor = System.Drawing.Color.Red;
+            this.bezarogomb1.Font = new System.Drawing.Font("Times New Roman", 8F, System.Drawing.FontStyle.Bold);
+            this.bezarogomb1.Location = new System.Drawing.Point(13, 418);
+            this.bezarogomb1.Name = "bezarogomb1";
+            this.bezarogomb1.Size = new System.Drawing.Size(100, 100);
+            this.bezarogomb1.TabIndex = 12;
+            this.bezarogomb1.Text = "Bezár";
+            this.bezarogomb1.UseVisualStyleBackColor = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Beige;
             this.ClientSize = new System.Drawing.Size(1445, 530);
+            this.Controls.Add(this.bezarogomb1);
             this.Controls.Add(this.Multhet);
             this.Controls.Add(this.Eves);
             this.Controls.Add(this.USA);
@@ -199,6 +213,7 @@
         private System.Windows.Forms.Button USA;
         private System.Windows.Forms.Button Eves;
         private System.Windows.Forms.Button Multhet;
+        private bezarogomb bezarogomb1;
     }
 }
 

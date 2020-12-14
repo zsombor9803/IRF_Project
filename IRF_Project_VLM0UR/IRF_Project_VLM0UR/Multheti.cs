@@ -120,7 +120,7 @@ namespace IRF_Project_VLM0UR
                 b.BackColor = Color.LightGray;
             }
 
-            foreach (var t in this.Controls.OfType<Tablazat>())  //ez fölösleges
+            foreach (var t in this.Controls.OfType<Tablazat>())  
             {
                 t.Font = new Font("Microsoft Sans Serif", 7.8F, FontStyle.Regular);
             }

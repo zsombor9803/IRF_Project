@@ -33,6 +33,7 @@
             System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.bezarogomb1 = new IRF_Project_VLM0UR.bezarogomb();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -55,19 +56,33 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.Beige;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(784, 49);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(291, 300);
+            this.dataGridView1.Size = new System.Drawing.Size(348, 300);
             this.dataGridView1.TabIndex = 1;
+            // 
+            // bezarogomb1
+            // 
+            this.bezarogomb1.BackColor = System.Drawing.Color.Red;
+            this.bezarogomb1.Font = new System.Drawing.Font("Times New Roman", 8F, System.Drawing.FontStyle.Bold);
+            this.bezarogomb1.Location = new System.Drawing.Point(13, 375);
+            this.bezarogomb1.Name = "bezarogomb1";
+            this.bezarogomb1.Size = new System.Drawing.Size(100, 100);
+            this.bezarogomb1.TabIndex = 2;
+            this.bezarogomb1.Text = "Bezár";
+            this.bezarogomb1.UseVisualStyleBackColor = false;
             // 
             // OlaszForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1144, 450);
+            this.BackColor = System.Drawing.Color.Beige;
+            this.ClientSize = new System.Drawing.Size(1144, 487);
+            this.Controls.Add(this.bezarogomb1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.chart1);
             this.Name = "OlaszForm";
@@ -82,5 +97,6 @@
 
         private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private bezarogomb bezarogomb1;
     }
 }
