@@ -15,7 +15,7 @@ namespace IRF_Project_VLM0UR
             get { return _honap; }
             set
             {
-                if ((value[6].ToString() == "1") && (value[7].ToString() == "0")) //amúgy 5. és 6. elem lenne de ez a fos "-val kezdi
+                if ((value[6].ToString() == "1") && (value[7].ToString() == "0")) 
                 {
                     _honap = "Október";
                 }
